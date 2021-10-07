@@ -1,0 +1,26 @@
+.banner {
+    height: 70vh;
+    color:ghostwhite;
+    background: linear-gradient(135deg,
+            rgba(0, 0, 0, 0.8) 0%,
+            rgba(0, 0, 0, 0.2) 55%),
+    url('https://source.unsplash.com/JmVaNyemtN8');
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.banner h1 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.banner p {
+    font-size: 20px;
+    font-weight: 300;
+    opacity: 0.8;
+    margin-bottom: 35px;
+}

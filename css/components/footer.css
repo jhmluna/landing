@@ -1,0 +1,31 @@
+.footer {
+  height: 200px;
+  background-color: #2b2a2a;
+  padding-top: 10px;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+.list-inline {
+  list-style: none;
+  text-align: center;
+  padding-inline-start: 0;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 0px 5px;
+}
+
+.list-inline li a {
+  color: #cc9d2c;
+  font-size: 50px;
+  padding: 0;
+}
+
+.footer p {
+  text-align: center;
+  color:#6b6c6c;
+  font-weight: 400;
+}
